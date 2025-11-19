@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>גבארין איאד – עבודות ריצוף, שיפוצים ודשא סינטטי בכל הארץ</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #222;
+            line-height: 1.6;
+        }
+        a { text-decoration: none; }
+
+        header {
+            background: #1b5e20;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        header .logo {
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+        header .phone {
+            font-size: 1.1rem;
+        }
+
+        nav a {
+            color: #fff;
+            margin-left: 15px;
+            font-size: 0.95rem;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #2e7d32, #66bb6a);
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.05rem;
+            margin-bottom: 20px;
+        }
+        .hero-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .btn {
+            padding: 10px 18px;
+            border-radius: 25px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            font-size: 0.95rem;
+        }
+        .btn-call {
+            background: #fff;
+            color: #1b5e20;
+        }
+        .btn-wa {
+            background: #25D366;
+            color: #fff;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        h2.section-title {
+            font-size: 1.6rem;
+            margin-bottom: 20px;
+            color: #1b5e20;
+        }
+
+        .about-box {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 15px;
+        }
+        .service-card {
+            background: #ffffff;
+            padding: 18px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+        }
+        .service-card h3 {
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+            color: #2e7d32;
+        }
+        .service-card p {
+            font-size: 0.95rem;
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 10px;
+        }
+        .gallery-item {
+            background: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+        }
+        .gallery-item img {
+            width: 100%;
+            display: block;
+        }
+        .gallery-item .caption {
+            padding: 8px 10px;
+            font-size: 0.9rem;
+        }
+
+        .contact-box {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+        }
+        .contact-box p {
+            margin-bottom: 8px;
+        }
+        .contact-actions {
+            margin-top: 12px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        footer {
+            background: #1b5e20;
+            color: #fff;
+            text-align: center;
+            padding: 15px 10px;
+            font-size: 0.85rem;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            header { text-align: center; justify-content: center; gap: 10px; }
+            nav { width: 100%; text-align: center; margin-top: 8px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">גבארין איאד – עבודות ריצוף ושיפוצים</div>
+    <div class="phone">טלפון: <a href="tel:0503222504" style="color:#fff;">050-3222504</a></div>
+    <nav>
+        <a href="#services">שירותים</a>
+        <a href="#gallery">גלריית עבודות</a>
+        <a href="#contact">צור קשר</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>עבודות ריצוף, שיפוצים ודשא סינטטי בכל הארץ</h1>
+    <p>
+        עבודות מקצועיות לרשויות, קבלנים ולקוחות פרטיים – ריצוף חוץ, שבילים, מדרכות,
+        דשא סינטטי، קירות אבן ובטון ועוד.
+    </p>
+    <div class="hero-buttons">
+        <a href="tel:0503222504"><button class="btn btn-call">📞 اتصل الآن 050-3222504</button></a>
+        <a href="https://wa.me/972503222504" target="_blank"><button class="btn btn-wa">🟢 تواصل واتساب مباشر</button></a>
+    </div>
+</section>
+
+<section id="about">
+    <h2 class="section-title">من نحن</h2>
+    <div class="about-box">
+        <p>
+            نحن شركة <strong>גבארין איאד</strong> متخصصة في أعمال الرصف، التطوير الخارجي والشطب.
+            ننفذ مشاريع للشركات، البلديات والبيوت الخاصة مع اهتمام كامل بالجودة، الدقة
+            والمواعيد.
+        </p>
+        <p>
+            خبرة في: رصف الشوارع والأرصفة، تطوير حدائق وساحات عامة، דשא סינטטי، حيطان دعم،
+            أعمال حجر، رخام وبناء بلوكات.
+        </p>
+    </div>
+</section>
+
+<section id="services">
+    <h2 class="section-title">השירותים שלנו</h2>
+    <div class="services-grid">
+
+        <div class="service-card">
+            <h3>עבודות ריצוף חוץ ופנים</h3>
+            <p>
+                ריצוף מדרכות، שבילי הליכה، חניות، חצרות ומרפסות.
+                התקנת אבנים משתלבות، בלוקים، رיצוף בטון ועוד.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <h3>שיפוצים כלליים ופיתוח חוץ</h3>
+            <p>
+                עבודות תשתית، בטון، הכנה לריצוף، שיפועי ניקוז، מדרגות וכניסות لبניינים
+                ועסקים.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <h3>דשא סינטטי – عشب صناعي</h3>
+            <p>
+                אספקה והתקנה של דשא סינטטי איכותי למרפסות، גינות، גגות، חצרות وبתי ספר.
+                פתרון מושלם לגינה ירוקה، נקייה וללא תחזוקה.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <h3>אבן، שיש וקירות תומכים</h3>
+            <p>
+                בניית קירות אבן، קירות תומכים، חיפויי كירות، מדרגות أבן ועבודות שיש
+                ברמה גבוהה.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <h3>אספלט ושבילי פארקים</h3>
+            <p>
+                הכנת תשתית وبיצוע אספלט לשבילי הליכה، מסלולי ריצה، גינות ציבוריות
+                ושטחי משחק.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <h3>בניית كירות בטון ובלוקים</h3>
+            <p>
+                יציקה وبניית كירות בטון ובלוקים، מחיצות، גדרות ומבנים קטנים בהתאם
+                לצורכי הפרויקט.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="gallery">
+    <h2 class="section-title">גלריית עבודות</h2>
+    <p style="margin-bottom:15px;">
+        חלק מהפרויקטים שביצענו – שבילי הליכה، ריצוף כיכרות، עבודות אספלט، كירות אבן ובטון ועוד.
+    </p>
+
+    <div class="gallery-grid">
+        <div class="gallery-item">
+            <img src="images/work1.jpg" alt="שביל ריצוף ליד הים">
+            <div class="caption">שביל ריצוף מסודר לאורך הטיילת ליד הים</div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/work2.jpg" alt="שביל גישה לים">
+            <div class="caption">שביל גישה לים – ריצוף חוץ עם גימור נקי</div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/work3.jpg" alt="ריצוף רחבה עירונית">
+            <div class="caption">ריצוף רחבה וכיכר עירונית באבנים משתלבות</div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/work4.jpg" alt="מדרכות ועמודי בטיחות">
+            <div class="caption">פיתוח מדרכות ועמודי בטיחות סביב כביש</div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/work5.jpg" alt="ריצוף כיכר ושטח ציבורי">
+            <div class="caption">שילוב צבעים בריצוף כיכר ושטח ציבורי פתוח</div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/work6.jpg" alt="שבילי הליכה בגינה">
+            <div class="caption">שבילי ריצוף בגינה ציבורית ירוקה</div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/work7.jpg" alt="שביל אספלט בפארק">
+            <div class="caption">שביל אספלט בפארק – מתאים להליכה וריצה</div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/work8.jpg" alt="פיתוח שטח וקירות אבן">
+            <div class="caption">קירות אבן תומכים ופיתוח שטח מדורג</div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/work9.jpg" alt="ריצוף כיכר פתוחה">
+            <div class="caption">رיצוף כיכר פתוחה באזור מסחרי</div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/work10.jpg" alt="שביל אספלט מעוקל בפארק">
+            <div class="caption">שביל אספלט מעוקל בתוך פארק ירוק</div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/work11.jpg" alt="קיר בטון יצוק">
+            <div class="caption">קיר בטון יצוק – בסיס לקיר זיכרון / שילוט / עיצוב גינה</div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2 class="section-title">צור קשר</h2>
+    <div class="contact-box">
+        <p>מחפשים קבלן ריצוף ושיפוצים אמין ומקצועי?</p>
+        <p><strong>גבארין איאד</strong> – שירות בכל הארץ.</p>
+        <p>טלפון: <a href="tel:0503222504">050-3222504</a></p>
+        <p>واتساب: متاح للمخططات، صور المكان، وتسعير سريع.</p>
+
+        <div class="contact-actions">
+            <a href="tel:0503222504"><button class="btn btn-call">📞 اتصال مباشر</button></a>
+            <a href="https://wa.me/972503222504" target="_blank"><button class="btn btn-wa">🟢 ارسال رسالة واتساب</button></a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    © כל הזכויות שמורות – גבארין איאד • עבודות ריצוף، שיפוצים ודשא סינטטי בכל הארץ
+</footer>
+
+</body>
+</html>
